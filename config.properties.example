@@ -1,0 +1,20 @@
+# Telegram Recruitment Bot Configuration Template
+# Copy this file to 'config.properties' and fill in your credentials
+
+# 1. Your Bot Token from @BotFather
+bot.token=YOUR_BOT_TOKEN_FROM_BOTFATHER
+
+# 2. Your Bot Username without the '@' sign
+bot.username=YOUR_BOT_USERNAME
+
+# 3. Your Channel ID or Channel Username with '@'
+channel.id=@your_channel_username
+
+# 4. Local directory where received candidate CVs will be downloaded
+save.directory=received_cvs
+
+# 5. Telegram API Base URL (or your Cloudflare Worker URL if Telegram API is restricted)
+api.base.url=https://api.telegram.org
+
+# 6. Optional: Recruiter Telegram User ID (numeric ID from @userinfobot)
+recruiter.chat.id=

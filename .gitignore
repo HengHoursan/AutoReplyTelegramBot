@@ -1,0 +1,21 @@
+# Sensitive credentials & secrets
+config.properties
+
+# Candidate resumes & uploaded documents (Private Data / PII)
+received_cvs/
+*.pdf
+*.docx
+*.doc
+
+# IntelliJ IDEA & IDE files
+.idea/
+*.iws
+*.iml
+out/
+
+# Maven build outputs
+target/
+
+# OS metadata
+.DS_Store
+Thumbs.db
